@@ -1,32 +1,62 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Iniciar Sesión</title>
-    <!-- Enlace a Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Enlace a tu archivo CSS personalizado -->
+    <title>Kiosco Online TABA</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="./css/main.css">
 </head>
-<body>
-    <div class="container">
-        <h2>Iniciar Sesión</h2>
-        <form id="loginForm">
-            <label for="email" class="form-label">Email:</label>
-            <input type="email" id="email" name="email" class="form-control" required>
-            <label for="contrasena" class="form-label">Contraseña:</label>
-            <input type="password" id="contrasena" name="contrasena" class="form-control" required>
-            <button type="submit" class="btn btn-primary mt-3">Iniciar Sesión</button>
-        </form>
-        <p id="mensajeLogin" class="mt-3"></p>
 
-       <p>¿No tienes una cuenta? <a href="./pages/registro.html" class="btn btn-link"> Regístrate aquí</a></p>
+<body>
+    <div class="superBox">
+        <nav>
+            <header>
+                <h1>Kiosco Online TABA</h1>
+            </header>
+            <ul>
+                <li>
+                    <button id="todos" class="botonMenu boton-nav active"><i class="bi bi-handbag-fill"></i>Todos los
+                        Articulos</button>
+                </li>
+                <li>
+                    <button id="Almacen" class="botonMenu boton-nav"><i class="bi bi-handbag"></i>Almacen</button>
+                </li>
+                <li>
+                    <button id="Lacteos" class="botonMenu boton-nav"><i class="bi bi-handbag"></i>Lacteos</button>
+                </li>
+                <li>
+                    <button id="Limpieza" class="botonMenu boton-nav"><i class="bi bi-handbag"></i>Limpieza</button>
+                </li>
+                <li>
+                    <a class="botonMenu boton-bolsa" href="./page/carrito.html"><i class="bi bi-basket-fill"></i>Carrito
+                        <span id="sumarCarro" class="sumaCarrito">0</span></a>
+                </li>
+                <li>
+                    <button class="botonMenu boton-nav"><i class="bi bi-person-circle"></i><a
+                            href="./page/login.html"></i>Login</a></button>
+                </li>
+            </ul>
+
+
+        </nav>
+        <main>
+            <h2 class="titlePage" id="titlePages">Todos los Articulos </h2>
+            <div id="boxArticulo" class="cardArticulos">
+             
+
+        </main>
+        <footer>
+            <p class="footer">Taba Oline 2024 </p>
+        </footer>
     </div>
-    
-    <!-- Enlace a Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- Tu script JavaScript para iniciar sesión -->
+
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
     <script src="./js/main.js"></script>
 </body>
+
 </html>

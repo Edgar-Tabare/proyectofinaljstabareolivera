@@ -1,0 +1,279 @@
+/* Importar la fuente Rubik desde Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap");
+
+/* Variables de colores */
+:root {
+  --clr-main: #0f9405; /* Color principal */
+  --clr-main-light: #a3e95c; /* Color principal claro */
+  --clr-white: white; /* Blanco */
+  --clr-gray: #e2e2e2; /* Gris */
+  --clr-red: #961818; /* Rojo */
+}
+
+/* Resetear estilos y establecer la fuente por defecto */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+}
+
+/* Resetear margen para ciertos elementos */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+input,
+textarea,
+ul {
+  margin: 0;
+}
+
+/* Quitar viñetas de las listas */
+ul {
+  list-style-type: none;
+}
+
+/* Quitar subrayado de enlaces */
+a {
+  text-decoration: none;
+}
+
+/* Estilos personalizados */
+.superBox {
+  margin: 0 auto; /* Centrar el contenedor horizontalmente */
+  padding: 20px; /* Espacio interno */
+  background-color: var(--clr-main);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--clr-white);
+}
+
+nav header {
+  margin-right: auto; /* Esto empujará los botones hacia la derecha */
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-left: 10px; /* Ajusta el espacio entre los elementos de la lista */
+}
+
+.botonMenu {
+  background-color: transparent;
+  border: 0;
+  color: var(--clr-white);
+
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 10px; /* Añade bordes redondeados */
+  padding: 8px 15px; /* Ajusta el espacio interno del botón */
+  transition: background-color 0.3s; /* Agrega una transición para el cambio de color de fondo */
+}
+
+.botonMenu:hover {
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.1
+  ); /* Cambia el color de fondo en estado de "hover" */
+}
+
+.botonMenu.active {
+  background-color: var(--clr-white);
+  color: var(--clr-main);
+  border-bottom-left-radius: 3rem;
+  border-top-right-radius: 3rem;
+}
+
+
+main {
+  width: 100%; /* Hace que el main ocupe todo el ancho disponible */
+  margin: 0; /* Elimina cualquier margen alrededor del main */
+  margin-top: 20px;
+  text-align: center; /* Centra el contenido horizontalmente */
+  background-color: var(--clr-white);
+  border-radius: 3rem;
+}
+
+h2.titlePage {
+  color: var(--clr-main-light);
+  margin-bottom: 20px; /* Espacio adicional entre el título y las tarjetas */
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap; /* Permite que las filas se envuelvan */
+  justify-content: center; /* Centra las filas horizontalmente */
+  gap: 20px;
+}
+
+.cardArticulos {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Cuatro columnas de tamaño igual */
+  gap: 20px; /* Espacio entre las celdas de la cuadrícula */
+  box-sizing: border-box;
+  padding: 10px;
+  background-color: var(--clr-gray);
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.8); /* Sombra */
+}
+.cardArticulos:hover {
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); /* Aumentar el sombreado al pasar el ratón */
+}
+
+.imgArticulo {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+.articulos {
+  width: 100%; /* Asegura que el contenido ocupe todo el ancho de la tarjeta */
+  height: 100%; /* Asegura que el contenido ocupe todo el alto de la tarjeta */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px; /* Ajusta el espacio interno según sea necesario */
+}
+
+
+
+.infoArticulo {
+  flex-grow: 1; /* Hace que este contenedor ocupe el espacio restante */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.infoArticulo h3.tituloArticulo,
+.infoArticulo p.precioArticulo {
+  margin-bottom: 10px; /* Espacio entre el título/precio y el botón */
+}
+
+.agregarArticulo {
+  width: 100%; /* Ocupa todo el ancho del contenedor padre (infoProducto) */
+  padding: 12px 0; /* Ajusta el padding del botón */
+  text-align: center; /* Centra el texto */
+  background-color: var(--clr-main); /* Color de fondo del botón */
+  color: var(--clr-white); /* Color del texto */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3); /* Sombra más pronunciada */
+  transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Transiciones suaves */
+}
+
+.agregarArticulo:hover {
+  background-color: var(
+    --clr-main-light
+  ); /* Cambiar el color de fondo al pasar el ratón */
+}
+
+/*carrito*/
+
+.boxCarrito {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.carritoVacio {
+  color: var(--clr-main);
+ 
+}
+
+.carritoArticulos 
+.carritoComprado {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.carritoArticulo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--clr-gray);
+  color: var(--clr-main);
+  padding: 5rem;
+  padding-right: 1.5rem;
+  border-radius: 1rem;
+}
+
+.carritoArticuloImagen {
+  width: 3rem;
+  border-radius: 1rem;
+}
+
+.carritoArticulo small {
+  font-size: 0.75rem;
+}
+
+.carritoArticuloEliminar {
+  border: 0;
+  background-color: transparent;
+  color: var(--clr-red);
+  cursor: pointer;
+}
+
+.carritoArticuloFinal {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ 
+}
+
+.carritoArticulosFinalLimpiar {
+    margin: 10px; /* Reducir el margen para que sea más pequeño */
+    padding: 0.5rem 0.5rem; /* Reducir el padding para que sea más pequeño */
+    border: 0;
+    background-color: var(--clr-gray);   
+    border-radius: 1rem;
+    color: var(--clr-main);
+    text-transform: uppercase;
+    cursor: pointer; 
+}
+.carritoArticulosFinalRealizar {
+    display: flex;
+}
+
+.carritoArticulosFinalTotal {
+    display: flex;
+    background-color: var(--clr-gray);
+    padding: 1rem;
+    color: var(--clr-main);
+    text-transform: uppercase;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    gap: 1rem;
+}
+
+.carritoArticulosFinalComprar {
+    border: 0;
+    background-color: var(--clr-main);
+    padding: 1rem;
+    color: var(--clr-white);
+    text-transform: uppercase;
+    cursor: pointer;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+.disabled {
+    display: none;
+}

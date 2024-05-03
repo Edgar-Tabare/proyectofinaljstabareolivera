@@ -1,0 +1,153 @@
+[
+    {
+      "id": "Harina 0000 Las Acacias 1KG",
+      "titulo": "Harina 0000 Las Acacias 1KG",
+      "imagen": "img/almacen/Harina.jpg",
+      "categoria": {
+        "nombre": "Almacen",
+        "id": "Almacen"
+      },
+      "precio": 67
+    },
+    {
+      "id": "Polenta Presto Pronta 500G",
+      "titulo": "Polenta Presto Pronta 500G",
+      "imagen": "img/almacen/Polenta.jpg",
+      "categoria": {
+        "nombre": "Almacen",
+        "id": "Almacen"
+      },
+      "precio": 45
+    },
+    {
+      "id": "Arroz Patna Green Chef 1K",
+      "titulo": "Arroz Patna Green Chef 1K",
+      "imagen": "img/almacen/Arroz.jpg",
+      "categoria": {
+        "nombre": "Almacen",
+        "id": "Almacen"
+      },
+      "precio": 55
+    },
+    {
+      "id": "Lentejas Emigrante 400G",
+      "titulo": "Lentejas Enigrante 400G",
+      "imagen": "img/almacen/Lentejas.jpg",
+      "categoria": {
+        "nombre": "Almacen",
+        "id": "Almacen"
+      },
+      "precio": 40
+    },
+    {
+      "id": "Aceite Soja Rio De La Plata 900ML",
+      "titulo": "Aceite Soja Rio De La Plata 900ML",
+      "imagen": "img/almacen/Aceite.jpg",
+      "categoria": {
+        "nombre": "Almacen",
+        "id": "Almacen"
+      },
+      "precio": 58
+    },
+    {
+      "id": "Leche Entera Larga Vida 1L",
+      "titulo": "Leche Entera Larga Vida 1L",
+      "imagen": "img/lacteos/Leche.jpg",
+      "categoria": {
+        "nombre": "Lacteos",
+        "id": "Lacteos"
+      },
+      "precio": 42
+    },
+    {
+      "id": "Queso Untable Margo Farming 400g",
+      "titulo": "Queso Untable Margo Farming 400g",
+      "imagen": "img/lacteos/Queso Untable.jpg",
+      "categoria": {
+        "nombre": "Lacteos",
+        "id": "Lacteos"
+      },
+      "precio": 211
+    },
+    {
+      "id": "Manteca Común Kasdorf 200g",
+      "titulo": "Manteca Común Kasdorf 200g",
+      "imagen": "./img/lacteos/Manteca.jpg",
+      "categoria": {
+        "nombre": "Lacteos",
+        "id": "Lacteos"
+      },
+      "precio": 68
+    },
+    {
+      "id": "Dulce De Leche Conaprole Crema 250g",
+      "titulo": "Dulce De Leche Conaprole Crema 250g",
+      "imagen": "./img/lacteos/Dulce De Leche.jpg",
+      "categoria": {
+        "nombre": "Lacteos",
+        "id": "Lacteos"
+      },
+      "precio": 88
+    },
+    {
+      "id": "Yogurt Vital+ Light Frutilla 1L",
+      "titulo": "Yogurt Vital+ Light Frutilla 1L",
+      "imagen": "./img/lacteos/Yogur.jpg",
+      "categoria": {
+        "nombre": "Lacteos",
+        "id": "Lacteos"
+      },
+      "precio": 130
+    },
+    {
+      "id": "Detergente Lavavajilla Titan 1.2l",
+      "titulo": "Detergente Lavavajilla Titan 1.2l",
+      "imagen": "./img/limpieza/Detergente.jpg",
+      "categoria": {
+        "nombre": "Limpieza",
+        "id": "Limpieza"
+      },
+      "precio": 105
+    },
+    {
+      "id": "Hipoclorito Titan 1L",
+      "titulo": "Hipoclorito Titan 1L",
+      "imagen": "./img/limpieza/Hipoclorito.jpg",
+      "categoria": {
+        "nombre": "Limpieza",
+        "id": "Limpieza"
+      },
+      "precio": 59
+    },
+    {
+      "id": "Jabon En Polvo Matic Gota Limpia 500g",
+      "titulo": "Jabon En Polvo Matic Gota Limpia 500g",
+      "imagen": "./img/limpieza/Jabon En Polvo.jpg",
+      "categoria": {
+        "nombre": "Limpieza",
+        "id": "Limpieza"
+      },
+      "precio": 49
+    },
+    {
+      "id": "Limpiador Frescura Natural Okey 900Ml",
+      "titulo": "Limpiador Frescura Natural Okey 900Ml",
+      "imagen": "./img/limpieza/Limpiador.jpg",
+      "categoria": {
+        "nombre": "Limpieza",
+        "id": "Limpieza"
+      },
+      "precio": 45
+    },
+    {
+      "id": "Jabon En Barra Girando Sol Azul",
+      "titulo": "Jabon En Barra Girando Sol Azul",
+      "imagen": "./img/limpieza/Jabon-En-Barra.jpg",
+      "categoria": {
+        "nombre": "Limpieza",
+        "id": "Limpieza"
+      },
+      "precio": 37
+    }
+  ]
+  
